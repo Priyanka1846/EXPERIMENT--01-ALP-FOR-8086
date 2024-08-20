@@ -1,14 +1,9 @@
 # EXPERIMENT 01 ALP FOR 8086
 
-###Name : Priyanka K
-
-###Register No. : 212223230162
-
-###Department : Artificial Intelligence and Data Science
-
-
-
-####Date of experiment : 19-08-2024
+## Name : Priyanka K
+## Register No. : 212223230162
+## Department : Artificial Intelligence and Data Science
+## Date of experiment : 19-08-2024
 
 
 
