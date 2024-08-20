@@ -1,7 +1,8 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+# EXPERIMENT 01 ALP FOR 8086
+##Name : Priyanka K
+##Register No. : 212223230162
+##Department : Artificial Intelligence and Data Science
+##Date of experiment : 19-08-2024
 
 
 
@@ -15,61 +16,18 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
- 
- 
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
-
-4.	 Compile the program and check for the errors 
+2.	Run emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+3.	Write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+4.	Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
-
 6.	Click OK to see/view the output of your program on the Emulator screen. 
-
-
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
 8.	 
-
-
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
-
-
-
-
-
-
-
-
-
-
-
 9.	Click on emulate to start emulation 
-
-
-
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
-
-
-
-
-
-
-
-
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
-
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
-
-
 
 
 
@@ -77,26 +35,58 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
-
-
-
+## Addition 
+```
+ORG 100
+MOV AL,11H;
+MOV BL,20H;
+ADD AL,BL;
+MOV [6379H],AL;
+RET
+```
 ## Output  
- 
-## Subtraction   of 8 bit numbers  ALP 
- 
+ ![image](https://github.com/user-attachments/assets/251c5be6-bbfc-4ef4-b8e8-e3fffda2e3f9)
+
+## Subtraction 
+```
+ORG 100
+MOV AL,11H;
+MOV BL,20H;
+SUB AL,BL;
+MOV [6379H],AL;
+RET
+```
 ## Output  
-## Multiplication alp 
- ## Output  
+![image](https://github.com/user-attachments/assets/53fda628-6c2a-4e43-a211-bd1254679968)
 
-
-## Division alp 
-
+## Multiplication ALP
+```
+ORG 100
+MOV AL,11H;
+MOV BL,20H;
+MUL AL;
+MOV [6379H],AL;
+RET
+```
 ## Output  
+![image](https://github.com/user-attachments/assets/3cd125c3-3d8f-45e1-8e21-67814caef05b)
 
 
-## Result :
- 
+## Division ALP
+```
+ORG 100
+MOV AL,11H;
+MOV BL,20H;
+DIV AL;
+MOV [6379H],AL;
+RET
+```
+## Output  
+![image](https://github.com/user-attachments/assets/720b0dcc-075c-4213-87ce-327bc830f799)
+
+
+## Result 
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
 
 
 
