@@ -111,7 +111,7 @@ OR AX,BX;
 RET
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/d8b8e858-0cf1-434c-a970-ee4dedc3db6a)
+![image](https://github.com/user-attachments/assets/367b4de0-0806-4fb1-8999-73fa43fa6b7d)
 
 ## NOT
 ```
