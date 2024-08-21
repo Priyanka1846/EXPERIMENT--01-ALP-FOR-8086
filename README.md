@@ -128,14 +128,14 @@ RET
 ## XOR
 ```
 ORG 100H
-MOV [SI+4],AX;
+MOV [SI+2],AX;
 MOV AX,0A32H;
-NOT AX;
-MOV [SI+6],AX;
+MOV BX,0B13H;
+XOR AX,BX;
 RET
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/de17d155-4878-45db-958b-2f07ba1adeca)
+![image](https://github.com/user-attachments/assets/86566c3a-f7e1-46ad-8e0f-a1392611405f)
 
 ## Result 
 Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
