@@ -64,7 +64,7 @@ RET
 ## Output  
 ![image](https://github.com/user-attachments/assets/53fda628-6c2a-4e43-a211-bd1254679968)
 
-## Multiplication ALP
+## Multiplication 
 ```
 ORG 100
 MOV AL,11H;
@@ -77,7 +77,7 @@ RET
 ![image](https://github.com/user-attachments/assets/3cd125c3-3d8f-45e1-8e21-67814caef05b)
 
 
-## Division ALP
+## Division 
 ```
 ORG 100
 MOV AL,11H;
@@ -89,6 +89,53 @@ RET
 ## Output  
 ![image](https://github.com/user-attachments/assets/720b0dcc-075c-4213-87ce-327bc830f799)
 
+## AND 
+```
+ORG 100H
+MOV [SI],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+AND AX,BX;
+RET
+```
+## Output
+![image](https://github.com/user-attachments/assets/cba9d8d7-5bc8-4922-83c9-08c0cd884f42)
+
+## OR
+```
+ORG 100H
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+RET
+```
+## Output
+![image](https://github.com/user-attachments/assets/d8b8e858-0cf1-434c-a970-ee4dedc3db6a)
+
+## NOT
+```
+ORG 100H
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX;
+MOV [SI+6],AX;
+RET
+```
+## Output
+![image](https://github.com/user-attachments/assets/b4a64ee2-47e6-4294-8d94-fb14d6cda705)
+
+## XOR
+```
+ORG 100H
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX;
+MOV [SI+6],AX;
+RET
+```
+## Output
+![image](https://github.com/user-attachments/assets/de17d155-4878-45db-958b-2f07ba1adeca)
 
 ## Result 
 Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
